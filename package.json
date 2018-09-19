@@ -1,0 +1,19 @@
+{
+  "name": "des-assn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/main.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node build/main.js fff aef"
+  },
+  "author": "Christopher Tse",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.9.4",
+    "prettier": "^1.14.2",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-immutable": "^4.7.0"
+  }
+}
