@@ -8,6 +8,7 @@ This program performs a single round of DES encryption, excluding the initial an
 Code documentation can be viewed at `doc/index.html`.
 
 ## Usage
+**Required**: Node.js v8.11+
 
 Optional: Install required tools and build the project
 ```
