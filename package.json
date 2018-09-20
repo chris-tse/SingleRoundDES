@@ -4,8 +4,9 @@
   "description": "",
   "main": "build/main.js",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "test": "node build/main.js fff aef"
+    "build": "tsc -p tsconfig.json && typedoc --out doc",
+    "test": "node build/main.js fff aef",
+    "clean": "rm -rf build/ && rm -rf doc/"
   },
   "author": "Christopher Tse",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "prettier": "^1.14.2",
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.15.0",
-    "tslint-immutable": "^4.7.0"
+    "tslint-immutable": "^4.7.0",
+    "typedoc": "^0.12.0"
   }
 }
